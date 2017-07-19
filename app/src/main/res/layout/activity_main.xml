@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.liangjing.loadingballwave.MainActivity">
+
+    <com.liangjing.loadingballwave.view.WaveBezierView
+        android:id="@+id/Wave1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:text="稍"
+        />
+    <com.liangjing.loadingballwave.view.WaveBezierView
+        android:id="@+id/Wave2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@+id/Wave1"
+        app:text="等"
+        app:color="@android:color/holo_purple"
+        />
+</RelativeLayout>
